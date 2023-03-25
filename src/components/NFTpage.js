@@ -4,9 +4,6 @@ import { useLocation, useParams } from 'react-router-dom';
 import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import React, { useState, useEffect } from 'react';
-import ChatWindow from './ChatWindow';
-import ChatList from './ChatList';
-
 
 
 export default function NFTPage (props) {
@@ -77,7 +74,6 @@ async function getNFTData(tokenId) {
     console.log("address", addr)
     updateCurrAddress(addr);
 
-    newaddr();
 
 }
 
