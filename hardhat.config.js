@@ -13,12 +13,6 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 
-//选取ganache下的4个账户的私钥
-const PRIVATE_KEY1 = "";
-const PRIVATE_KEY2 = "";
-const PRIVATE_KEY3 = "";
-const PRIVATE_KEY4 = "";
-
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -41,10 +35,6 @@ module.exports = {
     sepolia: {
        url: process.env.REACT_APP_ALCHEMY_API_URL,
        accounts: [process.env.REACT_APP_PRIVATE_KEY]
-      },
-      ganache: {
-          url: `http://127.0.0.1:8545`,
-          accounts: [`0x${PRIVATE_KEY1}`, `0x${PRIVATE_KEY2}`, `0x${PRIVATE_KEY3}`, `0x${PRIVATE_KEY4}`]
       }
      
   },
