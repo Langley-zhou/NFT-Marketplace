@@ -4,7 +4,6 @@ import Marketplace from './components/Marketplace';
 import Profile from './components/Profile';
 import SellNFT from './components/SellNFT';
 import NFTPage from './components/NFTpage';
-import ChatWindow from './components/ChatWindow';
 import ReactDOM from "react-dom/client";
 import BidNftPage from './components/BidNftPage';
 import {
