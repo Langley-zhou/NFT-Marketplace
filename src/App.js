@@ -20,10 +20,7 @@ function App() {
           <Route path="/nftPage" element={<NFTPage />} />
           <Route path="/BidNftPage" element={<BidNftPage />} />
           <Route path="/profile" element={<Profile />}/>
-          <Route path="/sellNFT" element={<SellNFT />} />
-          <Route path="/ChatWindow" component={<ChatWindow />} />
-          
-              
+          <Route path="/sellNFT" element={<SellNFT />} />      
         </Routes>
     </div>
   );
